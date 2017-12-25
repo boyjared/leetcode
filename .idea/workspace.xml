@@ -15,6 +15,7 @@
     <SUITE FILE_PATH="coverage/leetcode$Find_Pivot_Index.coverage" NAME="Find Pivot Index Coverage Results" MODIFIED="1512564807050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$459__Repeated_Substring_Pattern.coverage" NAME="459. Repeated Substring Pattern Coverage Results" MODIFIED="1512801122609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$344__Reverse_String.coverage" NAME="344. Reverse String Coverage Results" MODIFIED="1512906823493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$687__Longest_Univalue_Path.coverage" NAME="687. Longest Univalue Path Coverage Results" MODIFIED="1514171743601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$Valid_Palindrome_II.coverage" NAME="Valid Palindrome II Coverage Results" MODIFIED="1512470464597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$557__Reverse_Words_in_a_String_III.coverage" NAME="557. Reverse Words in a String III Coverage Results" MODIFIED="1512736063680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$9__Palindrome_Number.coverage" NAME="9. Palindrome Number Coverage Results" MODIFIED="1513163261294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2017.11.10" />
@@ -75,11 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="463. Island Perimeter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="463. Island Perimeter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/463. Island Perimeter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="687. Longest Univalue Path.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/687. Longest Univalue Path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,6 +131,7 @@
         <option value="$PROJECT_DIR$/198. House Robber.py" />
         <option value="$PROJECT_DIR$/594. Longest Harmonious Subsequence.py" />
         <option value="$PROJECT_DIR$/463. Island Perimeter.py" />
+        <option value="$PROJECT_DIR$/687. Longest Univalue Path.py" />
       </list>
     </option>
   </component>
@@ -130,9 +142,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
+    <option name="x" value="188" />
     <option name="y" value="23" />
-    <option name="width" value="1868" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -182,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.463. Island Perimeter">
+  <component name="RunManager" selected="Python.687. Longest Univalue Path">
     <configuration name="198. House Robber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +249,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="678. Valid Parenthesis String" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="687. Longest Univalue Path" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,7 +262,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/678. Valid Parenthesis String.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/687. Longest Univalue Path.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,19 +286,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.678. Valid Parenthesis String" />
-      <item index="1" class="java.lang.String" itemvalue="Python.746. Min Cost Climbing Stairs" />
-      <item index="2" class="java.lang.String" itemvalue="Python.198. House Robber" />
-      <item index="3" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
-      <item index="4" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
+      <item index="0" class="java.lang.String" itemvalue="Python.746. Min Cost Climbing Stairs" />
+      <item index="1" class="java.lang.String" itemvalue="Python.198. House Robber" />
+      <item index="2" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
+      <item index="3" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.687. Longest Univalue Path" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.198. House Robber" />
-        <item index="3" class="java.lang.String" itemvalue="Python.746. Min Cost Climbing Stairs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.678. Valid Parenthesis String" />
+        <item index="0" class="java.lang.String" itemvalue="Python.687. Longest Univalue Path" />
+        <item index="1" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.198. House Robber" />
+        <item index="4" class="java.lang.String" itemvalue="Python.746. Min Cost Climbing Stairs" />
       </list>
     </recent_temporary>
   </component>
@@ -308,16 +320,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23404256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16768293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -345,13 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/387. First Unique Character in a String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/344. Reverse String.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -701,8 +706,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/463. Island Perimeter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/687. Longest Univalue Path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
