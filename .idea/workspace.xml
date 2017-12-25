@@ -25,6 +25,7 @@
     <SUITE FILE_PATH="coverage/leetcode$594__Longest_Harmonious_Subsequence.coverage" NAME="594. Longest Harmonious Subsequence Coverage Results" MODIFIED="1514103824583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$551__Student_Attendance_Record_I.coverage" NAME="551. Student Attendance Record I Coverage Results" MODIFIED="1512737063912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$387__First_Unique_Character_in_a_String.coverage" NAME="387. First Unique Character in a String Coverage Results" MODIFIED="1512810283977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$367__Valid_Perfect_Square.coverage" NAME="367. Valid Perfect Square Coverage Results" MODIFIED="1514192451504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$20__Valid_Parentheses.coverage" NAME="20. Valid Parentheses Coverage Results" MODIFIED="1512732875705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$463__Island_Perimeter.coverage" NAME="463. Island Perimeter Coverage Results" MODIFIED="1514127502618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$InsertionSort.coverage" NAME="InsertionSort Coverage Results" MODIFIED="1512650094751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -86,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="687. Longest Univalue Path.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="687. Longest Univalue Path.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/687. Longest Univalue Path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="367. Valid Perfect Square.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/367. Valid Perfect Square.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -132,6 +143,7 @@
         <option value="$PROJECT_DIR$/594. Longest Harmonious Subsequence.py" />
         <option value="$PROJECT_DIR$/463. Island Perimeter.py" />
         <option value="$PROJECT_DIR$/687. Longest Univalue Path.py" />
+        <option value="$PROJECT_DIR$/367. Valid Perfect Square.py" />
       </list>
     </option>
   </component>
@@ -194,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.687. Longest Univalue Path">
+  <component name="RunManager" selected="Python.367. Valid Perfect Square">
     <configuration name="198. House Robber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,6 +221,24 @@
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/198. House Robber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="367. Valid Perfect Square" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/367. Valid Perfect Square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,38 +297,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="746. Min Cost Climbing Stairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/746. Min Cost Climbing Stairs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.746. Min Cost Climbing Stairs" />
-      <item index="1" class="java.lang.String" itemvalue="Python.198. House Robber" />
-      <item index="2" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
-      <item index="3" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.687. Longest Univalue Path" />
+      <item index="0" class="java.lang.String" itemvalue="Python.198. House Robber" />
+      <item index="1" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
+      <item index="2" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.687. Longest Univalue Path" />
+      <item index="4" class="java.lang.String" itemvalue="Python.367. Valid Perfect Square" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.687. Longest Univalue Path" />
-        <item index="1" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
-        <item index="3" class="java.lang.String" itemvalue="Python.198. House Robber" />
-        <item index="4" class="java.lang.String" itemvalue="Python.746. Min Cost Climbing Stairs" />
+        <item index="0" class="java.lang.String" itemvalue="Python.367. Valid Perfect Square" />
+        <item index="1" class="java.lang.String" itemvalue="Python.687. Longest Univalue Path" />
+        <item index="2" class="java.lang.String" itemvalue="Python.463. Island Perimeter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.594. Longest Harmonious Subsequence" />
+        <item index="4" class="java.lang.String" itemvalue="Python.198. House Robber" />
       </list>
     </recent_temporary>
   </component>
@@ -357,13 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/344. Reverse String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/383. Ransom Note.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -714,8 +719,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/687. Longest Univalue Path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/367. Valid Perfect Square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
