@@ -107,11 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="669. Trim a Binary Search Tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="669. Trim a Binary Search Tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/669. Trim a Binary Search Tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="653. Two Sum IV - Input is a BST.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/653. Two Sum IV - Input is a BST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,6 +165,7 @@
         <option value="$PROJECT_DIR$/687. Longest Univalue Path.py" />
         <option value="$PROJECT_DIR$/367. Valid Perfect Square.py" />
         <option value="$PROJECT_DIR$/669. Trim a Binary Search Tree.py" />
+        <option value="$PROJECT_DIR$/653. Two Sum IV - Input is a BST.py" />
       </list>
     </option>
   </component>
@@ -379,13 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/459. Repeated Substring Pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/557. Reverse Words in a String III.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -740,6 +744,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/653. Two Sum IV - Input is a BST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
