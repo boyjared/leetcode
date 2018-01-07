@@ -7,18 +7,15 @@ class Solution:
         """
         g.sort()
         s.sort()
-        sum = 0
-        for i in g:
-            for j in s:
-                if i > j:
-                    continue
-                else:
-                    sum = sum + 1
-                    s.remove(j)
-                    break
-        return sum
+        i = 0
+        j = 0
+        while(i < len(g) and j<len(s)):
+            if g[i]<=s[j]:
+                i += 1
+            j += 1
+        return i
 
 
 solution = Solution()
-res = solution.findContentChildren([1,2], [1,2,3])
+res = solution.findContentChildren([10,9,8,7],[5,6,7,8])
 print(res)
