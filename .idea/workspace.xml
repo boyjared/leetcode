@@ -33,6 +33,7 @@
     <SUITE FILE_PATH="coverage/leetcode$9__Palindrome_Number.coverage" NAME="9. Palindrome Number Coverage Results" MODIFIED="1513163261294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2017.11.10" />
     <SUITE FILE_PATH="coverage/leetcode$121__Best_Time_to_Buy_and_Sell_Stock.coverage" NAME="121. Best Time to Buy and Sell Stock Coverage Results" MODIFIED="1514376342486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$RepeatedStringMatch.coverage" NAME="RepeatedStringMatch Coverage Results" MODIFIED="1512467466425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$169__Majority_Element.coverage" NAME="169. Majority Element Coverage Results" MODIFIED="1515413745322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$367__Valid_Perfect_Square.coverage" NAME="367. Valid Perfect Square Coverage Results" MODIFIED="1514192451504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$20__Valid_Parentheses.coverage" NAME="20. Valid Parentheses Coverage Results" MODIFIED="1512732875705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$463__Island_Perimeter.coverage" NAME="463. Island Perimeter Coverage Results" MODIFIED="1514127502618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -82,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="234. Palindrome Linked List.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="234. Palindrome Linked List.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/234. Palindrome Linked List.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="169. Majority Element.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/169. Majority Element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -141,6 +152,7 @@
         <option value="$PROJECT_DIR$/682. Baseball Game.py" />
         <option value="$PROJECT_DIR$/455. Assign Cookies.py" />
         <option value="$PROJECT_DIR$/234. Palindrome Linked List.py" />
+        <option value="$PROJECT_DIR$/169. Majority Element.py" />
       </list>
     </option>
   </component>
@@ -201,25 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.455. Assign Cookies">
-    <configuration name="121. Best Time to Buy and Sell Stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/121. Best Time to Buy and Sell Stock.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.169. Majority Element">
     <configuration name="122. Best Time to Buy and Sell Stock II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,6 +228,24 @@
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/122. Best Time to Buy and Sell Stock II.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="169. Majority Element" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/169. Majority Element.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,19 +305,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.121. Best Time to Buy and Sell Stock" />
-      <item index="1" class="java.lang.String" itemvalue="Python.122. Best Time to Buy and Sell Stock II" />
-      <item index="2" class="java.lang.String" itemvalue="Python.526. Beautiful Arrangement" />
-      <item index="3" class="java.lang.String" itemvalue="Python.682. Baseball Game" />
-      <item index="4" class="java.lang.String" itemvalue="Python.455. Assign Cookies" />
+      <item index="0" class="java.lang.String" itemvalue="Python.122. Best Time to Buy and Sell Stock II" />
+      <item index="1" class="java.lang.String" itemvalue="Python.526. Beautiful Arrangement" />
+      <item index="2" class="java.lang.String" itemvalue="Python.682. Baseball Game" />
+      <item index="3" class="java.lang.String" itemvalue="Python.455. Assign Cookies" />
+      <item index="4" class="java.lang.String" itemvalue="Python.169. Majority Element" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.455. Assign Cookies" />
-        <item index="1" class="java.lang.String" itemvalue="Python.682. Baseball Game" />
-        <item index="2" class="java.lang.String" itemvalue="Python.526. Beautiful Arrangement" />
-        <item index="3" class="java.lang.String" itemvalue="Python.122. Best Time to Buy and Sell Stock II" />
-        <item index="4" class="java.lang.String" itemvalue="Python.121. Best Time to Buy and Sell Stock" />
+        <item index="0" class="java.lang.String" itemvalue="Python.169. Majority Element" />
+        <item index="1" class="java.lang.String" itemvalue="Python.455. Assign Cookies" />
+        <item index="2" class="java.lang.String" itemvalue="Python.682. Baseball Game" />
+        <item index="3" class="java.lang.String" itemvalue="Python.526. Beautiful Arrangement" />
+        <item index="4" class="java.lang.String" itemvalue="Python.122. Best Time to Buy and Sell Stock II" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +348,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16751269" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16751269" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -364,13 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/459. Repeated Substring Pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/557. Reverse Words in a String III.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -731,6 +736,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/169. Majority Element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
