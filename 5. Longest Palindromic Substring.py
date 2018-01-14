@@ -1,64 +1,30 @@
 class Solution:
     def longestPalindrome(self, s):
 
-        def isPalindrome(s):
-            return s == s[::-1]
+        def expandAroundCenter(s, left, right):
+            L = left
+            R = right
+            while(L>=0 and R<len(s) and s[L] == s[R]):
+                L -= 1
+                R += 1
+            return R-L-1
 
-        max_len = 0
-        max_sub_palStr = ""
-        now_len = 0
-        now_sub_palStr = ""
-        # 针对回文的中心点为单个字符时
-        length = len(s)
-        for i in range(0, length):
-            is_Pal = True
-            left = i
-            right = i
-            now_sub_palStr = ""
-            while(is_Pal and left >=0 and right + 1 <= length):
-                now_sub_palStr = s[left:right+1]
-                if isPalindrome(now_sub_palStr):
-                    left -= 1
-                    right += 1
-                else:
-                    is_Pal = False
-            if is_Pal:
-                now_len = len(now_sub_palStr)
-                if now_len > max_len:
-                    max_len = now_len
-                    max_sub_palStr = now_sub_palStr
-            else:
-                now_len = len(now_sub_palStr) - 2
-                if now_len > max_len:
-                    max_len = now_len
-                    max_sub_palStr = now_sub_palStr[1:-1]
+        start = 0
+        end = 0
+        len_s = len(s)
+        for i in range(0, len_s):
+            len1 = expandAroundCenter(s, i, i)
+            len2 = expandAroundCenter(s, i, i+1)
+            l = max(len1, len2)
+            if l > end - start:
+                start = i-(l-1)//2
+                end = i+l//2
+
+        return s[start:end+1]
 
 
-            is_Pal = True
-            left = i
-            right = i + 1
-            now_sub_palStr = ""
-            while(is_Pal and left >= 0 and right + 1 <= length):
-                now_sub_palStr = s[left:right+1]
-                if isPalindrome(now_sub_palStr):
-                    left -= 1
-                    right += 1
-                else:
-                    is_Pal = False
-
-            if is_Pal:
-                now_len = len(now_sub_palStr)
-                if now_len > max_len:
-                    max_len = now_len
-                    max_sub_palStr = now_sub_palStr
-            else:
-                now_len = len(now_sub_palStr) - 2
-                if now_len > max_len:
-                    max_len = now_len
-                    max_sub_palStr = now_sub_palStr[1:-1]
-        return max_sub_palStr
 
 
 solution = Solution()
-res = solution.longestPalindrome("bb")
+res = solution.longestPalindrome("babad")
 print(res)
