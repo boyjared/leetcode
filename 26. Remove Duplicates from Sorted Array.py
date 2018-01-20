@@ -18,11 +18,11 @@ class Solution:
                         dup = True
                         dup_num += 1
                         nums.remove(nums[j])
-                        i = 1
+                        i = j+1
                     else:
                         i += 1
             return total_len - dup_num
 
 solution = Solution()
-res = solution.removeDuplicates([1,1,1,1,2,2,2,3,3,4,5])
+res = solution.removeDuplicates([1,1,2,3,3])
 print(res)
